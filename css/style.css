@@ -21,6 +21,16 @@ footer{
 .bgRed{
     background-color: red;
 }
+/*************
+ABsOLUT/RELATIVE
+**************/
+.relative{
+    position: relative;
+}
+.absolutBottom{
+    position: absolute;
+    bottom: 0;
+}
 /***********
 COLORI
 ****************/
@@ -39,6 +49,9 @@ PARTE FLEX
 }
 .JustifyContentCenter{
     justify-content: center;
+}
+.AlignContentEnd{
+    align-content: flex-end;
 }
 /**********
 ALTEZZE
@@ -67,6 +80,9 @@ LARGHEZZE
 }
 .w70{
     width: 70%;
+}
+.w100{
+    width: 100%;
 }
 /***********
 GENERALI
