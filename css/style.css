@@ -3,42 +3,136 @@
     padding: 0;
     box-sizing: border-box;
 }
-.flex{display: flex;}
-.flexColumn{
-    flex-direction: column;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
-.height90{
-    height: 90px;
-}
-.col-100-s{
-    width: 100%;
-}
-.col-3-4-s{
-    width: calc( 100% / 4 * 3 );
-}
-.col-1-4-s{
-    width: calc( 100% / 4 );
+/*********
+COLORI E CLASSI DA TOGLIERE
+***************/
+footer{
+    background-color: lightseagreen;
 }
 .right{
     background-color: darkgoldenrod;
 }
-.left{
-    height: calc( 100vh - 90px );
-    background-color: fuchsia;
+.bgBlue{
+    background-color:blue;
+}
+.bgRed{
+    background-color: red;
+}
+/***********
+COLORI
+****************/
+.fWhite{
+    color: white;
+}
+/********
+PARTE FLEX
+**********/
+.flex{display: flex;}
+.flexColumn{
+    flex-direction: column;
+}
+.AlignItemsCenter{
+    align-items: center;
+}
+.JustifyContentCenter{
+    justify-content: center;
+}
+/**********
+ALTEZZE
+**********/
+.height90{
+    height: 90px;
+}
+.height150px{
+    max-height: 150px;
+}
+/************
+LARGHEZZE
+************/
+.col-100-s{
+    width: 100%;
+}
+.col-2-3-s{
+    width: calc( 100% / 3 * 2 );
+}
+.col-1-3-s{
+    width: calc( 100% / 3 );
+}
+.col2-19rem{
+    width: 2.19rem;
+    height: 2.19rem;
+}
+.w70{
+    width: 70%;
+}
+/***********
+GENERALI
+************/
+/*font size*/
+.font2-5rem{
+    font-size: 2.5rem;
+}
+.font2-19rem{
+    font-size: 2.19rem;
+}
+.font1-25rem{
+    font-size: 1.25rem;
+    
+}
+.font1-56rem{
+    font-size: 1.56rem;
+}
+.font0-94{
+    font-size: 0.94rem;
+}
+.font0-62{
+    font-size: 0.62rem;
+}
+/*padding*/
+.pLeft{
+    padding-left: 1rem;
+}
+.p5{
+    padding: 5px 5px 0 0;
+}
+.p5px{
+    padding: 5px;
+}
+.pTop{
+    padding-top: 1rem;
 }
 .centro{
     height: calc( 100vh - 180px );
     background-color: greenyellow;
 }
-footer{
-    background-color: lightseagreen;
+/****************
+overflow
+*******************/
+.overflow-y{
+    overflow-y: scroll;
+}
+
+/*************
+PARTE SINISTRA
+*************/
+.left{
+    height: calc( 100vh - 90px );
+    background-color: fuchsia;
 }
 
 /**********************************
 XS
 ************************************/
 @media screen and ( max-width: 412px ) {
-   
+    .col-1-5-xs{
+        width: calc( 100% / 5 );
+    }
+    .col-4-5-xs{
+        width: calc( 100% / 5 * 4 );
+    }
 }
 /**************************************
 S
@@ -51,6 +145,12 @@ M
 *********************************************/
 @media screen and  ( min-width: 768px ) and ( max-width: 992px ) {
 
+    .col-3-4-m{
+        width: calc( 100% / 4 * 3 );
+    }
+    .col-1-4-m{
+        width: calc( 100% / 4 );
+    }
 }
 /*******************************************
 LG
