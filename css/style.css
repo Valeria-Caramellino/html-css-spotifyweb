@@ -224,6 +224,12 @@ nav{
 .card{
     padding: 1rem;
 }
+.borderRadiusImg{
+    border-radius: 50%;
+}
+.textCenter{
+    text-align: center;
+}
 /***************
 BOTTONE UPGRADE
 ****************/
@@ -238,7 +244,7 @@ button{
     background-color: rgba(8, 11, 18, 0.9);
     color: white;
     border: 1px solid white;
-    z-index: 6;
+   
 }
 /****************
 overflow
@@ -277,6 +283,9 @@ XS
     .col-80-xs{
         width: 80%;
     }
+    .none{
+        display: none;
+    }
 }
 /**************************************
 S
@@ -285,6 +294,8 @@ S
     .col-80-xs-s{
         width: 80%;
     }
+    
+
 }
 /*******************************************
 M
