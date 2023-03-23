@@ -12,10 +12,6 @@ body{
 /*********
 COLORI E CLASSI DA TOGLIERE
 ***************/
-footer{
-    background-color: #282828;
-}
-
 .bgBlue{
     background-color:blue;
 }
@@ -41,7 +37,6 @@ COLORI
 ****************/
 .bgColorHeader{
     background-color: rgba(8, 11, 18, 0.9);
-    /*background-color: #00000077;*/
 }
 .fWhite{
     color: white;
@@ -88,6 +83,7 @@ PARTE FLEX
 .wrap{
     flex-wrap: wrap;
 }
+
 /**********
 ALTEZZE
 **********/
@@ -124,6 +120,9 @@ LARGHEZZE
 .col2-19rem{
     width: 2.19rem;
     height: 2.19rem;
+}
+.col-1-2-1rem-s{
+    width: calc( 100% / 2 - 1rem);
 }
 
 .w100{
@@ -176,9 +175,12 @@ GENERALI
 .font0-62{
     font-size: 0.62rem;
 }
-/*padding*/
+/*padding - margin*/
 .pLeft{
     padding-left: 1rem;
+}
+.pRight{
+    padding-right: 1em;
 }
 .p5{
     padding: 5px 5px 0 0;
@@ -191,6 +193,9 @@ GENERALI
 }
 .pTop{
     padding-top: 1rem;
+}
+.mRight{
+    margin-right: 1rem;
 }
 /****************************************
 MAIN
@@ -214,6 +219,9 @@ ul{
 }
 
 nav{
+    padding: 1rem;
+}
+.card{
     padding: 1rem;
 }
 /***************
@@ -246,7 +254,16 @@ PARTE SINISTRA
     height: calc( 100vh - 90px );
     background-color: #000000;
 }
+/*******************
+FOOTER
+*******************/
+footer{
+    background-color: #282828;
+}
 
+.borderRadiusXfooter{
+    border-radius: 5px;
+}
 /**********************************
 XS
 ************************************/
@@ -257,12 +274,17 @@ XS
     .col-4-5-xs{
         width: calc( 100% / 5 * 4 );
     }
+    .col-80-xs{
+        width: 80%;
+    }
 }
 /**************************************
 S
 ****************************************/
 @media screen and ( min-width: 412px ) and ( max-width: 768px ) {
-   
+    .col-80-xs-s{
+        width: 80%;
+    }
 }
 /*******************************************
 M
@@ -274,6 +296,9 @@ M
     }
     .col-1-4-m{
         width: calc( 100% / 4 );
+    }
+    .col-1-4-1rem-m{
+        width: calc( 100% / 4 - 1rem );
     }
     .col-1-5-1gap-m{
         width: calc( 100% / 5 - 1rem );
@@ -294,6 +319,9 @@ LG
         width: calc( 100% / 5 * 4 );
     }
     .col-1-6-1gap-l{
+        width: calc( 100% / 6 - 1rem );
+    }
+    .col-1-6-1rem-l{
         width: calc( 100% / 6 - 1rem );
     }
     .iconFooterL{
