@@ -60,6 +60,9 @@ COLORI
 .fBlack{
     color: black;
 }
+.bgMain{
+    background-color: #141922;
+}
 /********
 PARTE FLEX
 **********/
@@ -159,8 +162,10 @@ GENERALI
     font-size: 2.19rem;
 }
 .font1-25rem{
-    font-size: 1.25rem;
-    
+    font-size: 1.25rem; 
+}
+.font1-12rem{
+    font-size: 1.12rem;
 }
 .font1-56rem{
     font-size: 1.56rem;
@@ -181,6 +186,9 @@ GENERALI
 .p5px{
     padding: 5px;
 }
+.p1rem{
+    padding: 1rem;
+}
 .pTop{
     padding-top: 1rem;
 }
@@ -192,6 +200,7 @@ MAIN
 }
 .stiky{
     position: sticky;
+    top: 0;
 }
 .centro{
     height: calc( 100vh - 180px );
