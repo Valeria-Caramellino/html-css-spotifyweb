@@ -9,15 +9,7 @@ body{
 .mAuto{
     margin: 0 auto;
 }
-/*********
-COLORI E CLASSI DA TOGLIERE
-***************/
-.bgBlue{
-    background-color:blue;
-}
-.bgRed{
-    background-color: red;
-}
+
 /*************
 ABSOLUT/RELATIVE
 **************/
@@ -58,6 +50,12 @@ COLORI
 .bgMain{
     background-color: #141922;
 }
+hr.green{
+    background-color: yellowgreen;
+    height: 5px;
+    border-radius: 5px;
+    border: none;
+}
 /********
 PARTE FLEX
 **********/
@@ -89,6 +87,9 @@ ALTEZZE
 **********/
 .height90{
     height: 90px;
+}
+.height100{
+    height: 100%;
 }
 .height150px{
     max-height: 150px;
@@ -194,6 +195,9 @@ GENERALI
 .pTop{
     padding-top: 1rem;
 }
+.pBottom{
+    padding-bottom: 1rem;
+}
 .mRight{
     margin-right: 1rem;
 }
@@ -230,6 +234,7 @@ nav{
 .textCenter{
     text-align: center;
 }
+
 /***************
 BOTTONE UPGRADE
 ****************/
@@ -253,6 +258,26 @@ overflow
     overflow-y: scroll;
 }
 
+
+/******************
+NONE IMG
+*****************/
+.ImgHover:hover .imgNone{
+    display: inline;
+    opacity: 1;
+}
+.ImgHover:hover .imgBlock{
+    display: none;
+    opacity: 0;
+}
+.imgNone{
+    display: none;
+    opacity: 0;
+}
+.imgBlock{
+    display: block;
+    opacity: 1;
+}
 /*************
 PARTE SINISTRA
 *************/
@@ -295,8 +320,22 @@ S
     .col-80-xs-s{
         width: 80%;
     }
-    
-
+    .ImgHover:hover .imgNone{
+        display: block;
+        opacity: 1;
+    }
+    .ImgHover:hover .imgBlock{
+        display: none;
+        opacity: 0;
+    }
+    .imgNone{
+        display: none;
+        opacity: 0;
+    }
+    .imgBlock{
+        display: block;
+        opacity: 1;
+    }
 }
 /*******************************************
 M
@@ -319,6 +358,22 @@ M
         display: flex;
         flex-direction: row;
     }
+    .ImgHover:hover .imgNone{
+        display: block;
+        opacity: 1;
+    }
+    .ImgHover:hover .imgBlock{
+        display: none;
+        opacity: 0;
+    }
+    .imgNone{
+        display: none;
+        opacity: 0;
+    }
+    .imgBlock{
+        display: block;
+        opacity: 1;
+    }
 }
 /*******************************************
 LG
@@ -339,5 +394,21 @@ LG
     .iconFooterL{
         display: flex;
         flex-direction: row;
+    }
+    .ImgHover:hover .imgNone{
+        display: block;
+        opacity: 1;
+    }
+    .ImgHover:hover .imgBlock{
+        display: none;
+        opacity: 0;
+    }
+    .imgNone{
+        display: none;
+        opacity: 0;
+    }
+    .imgBlock{
+        display: block;
+        opacity: 1;
     }
 }
