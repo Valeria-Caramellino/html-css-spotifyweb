@@ -311,7 +311,9 @@ footer{
     background-color: white;
     border: 2px solid orange;
 }
-
+.boxTopFooter > div:hover{
+    transform: scale( 1.5 );
+}
 /**********************************
 XS
 ************************************/
