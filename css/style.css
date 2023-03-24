@@ -238,6 +238,9 @@ nav{
 .textCenter{
     text-align: center;
 }
+.boxButton > button:hover{
+    transform: scale( 1.1 );
+}
 
 /***************
 BOTTONE UPGRADE
