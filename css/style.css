@@ -56,6 +56,10 @@ hr.green{
     border-radius: 5px;
     border: none;
 }
+.fWhiteT:hover{
+    color: white;
+    opacity: 1;
+}
 /********
 PARTE FLEX
 **********/
@@ -249,8 +253,8 @@ button{
     background-color: rgba(8, 11, 18, 0.9);
     color: white;
     border: 1px solid white;
-   
 }
+
 /****************
 overflow
 *******************/
@@ -295,6 +299,9 @@ footer{
 
 .borderRadiusXfooter{
     border-radius: 5px;
+}
+.bgWhite:hover{
+    background-color: green;
 }
 /**********************************
 XS
