@@ -303,6 +303,15 @@ footer{
 .bgWhite:hover{
     background-color: green;
 }
+
+.puntino{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid orange;
+}
+
 /**********************************
 XS
 ************************************/
