@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify Web</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
         <div class="flex">
-            <!--SINISTRA-->
+
+            <!--left side-->
             <section class="left col-1-4-m col-1-5-l col-1-3-s col-1-5-xs flex flexColumn relative">
+
+                <!--mini header section left-->
                 <div class="height90 flex AlignItemsCenter fWhite">
                     <div class="font2-5rem pLeft">
                         <i class="fa-brands fa-spotify"></i>
                     </div>
                     <h1 class="font1-25rem none">Spotify</h1>
                 </div>
+
+                <!--icons-->
                 <div class=" pLeft">
+
                     <div class="fWhiteT flex AlignItemsCenter">
-                        <div><i class="fa-solid fa-house font1-56rem p5"></i></div>
+                        <div>
+                            <i class="fa-solid fa-house font1-56rem p5"></i>
+                        </div>
                         <p class="font0-62 none">Home</p>
                     </div>
+
                     <div class="fWhiteT flex AlignItemsCenter">
-                        <div><i class="fa-solid fa-magnifying-glass font1-56rem p5"></i></div>
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass font1-56rem p5"></i>
+                        </div>
                         <p class="font0-62 none">Cerca</p>
                     </div>
+
                     <div class="fWhiteT flex AlignItemsCenter">
                         <div class="font1-56rem p5">
                             <i class="fa-solid fa-lines-leaning"></i>
                         </div>
                         <p class="font0-62 none">La tua libreria</p>
                     </div>
+
                 </div>
+                <!--finish icons-->
+
+                <!--section play list-->
                 <div class="pLeft none">
                     <h4 class="font0-94 fWhite pTop">PLAYLIST</h4>
+
                     <div class="flex fWhiteT AlignItemsCenter">
                         <div class="bgWhiteT fBlack col2-19rem flex AlignItemsCenter JustifyContentCenter">
                             <i class="fa-solid fa-plus font0-94"></i>
                         </div>
                         <p class="font0-62 pLeft">Crea Playlist</p>
                     </div>
+
                     <div class="overflow-y fWhiteT height150px w70">
+
                         <p class="font0-62 pTop">Crea Playlist</p>
                         <p class="font0-62 pTop">Crea Playlist</p>
                         <p class="font0-62 pTop">Crea Playlist</p>
@@ -53,7 +72,11 @@
                         <p class="font0-62 pTop">Crea Playlist</p>
 
                     </div>
+
                 </div>
+                <!--finsh section play list-->
+
+                <!--section bottom-->
                 <div class=" pLeft absolutBottom w100">
                     <div class="fWhiteT flex font0-62 AlignItemsCenter">
                         <div>
@@ -70,24 +93,36 @@
                     </div>
 
                 </div>
+                <!--finsh section bottom-->
 
             </section>  
-            
+            <!--finish left side-->
+
+            <!--right side-->
             <section class="col-3-4-m col-4-5-l col-2-3-s col-4-5-xs">
-               <section class="overflow-y bgMain"> <!--prova overflow qui-->
-                    <!--HEADER-->
+
+               <section class="overflow-y bgMain">
+
+                <!--HEADER-->
                     <header class="bgColorHeader col-100-s height90 stiky">
+
                         <div class="w100 height90 flex JustifyContentEnd AlignItemsCenter">
+
                             <div class="w60 col-80-xs col-80-xs-s fWhite flex JustifyContentEnd boxButton">
                                 <button class="pButtom mRight"> EFFETTUA L'UPGRADE</button>
                             </div>
+
                         </div>
+
                     </header>
 
-                     <!--MAIN-->
+                <!--MAIN-->
                     <main class="centro col-100-s">
+
                         <section>
-                            <section><!--nav-->
+                            
+                            <!--nav-->
+                            <section>      
                                 <nav>
                                     <ul class="flex wrap font0-62  textCenter">
                                         <li class="col-1-3-1gapS col-1-5-1gap-m col-1-6-1gap-l flex flexColumn"><p class="pBottom fWhiteT">IN EVIDENZA</p>
@@ -100,10 +135,19 @@
                                     </ul>
                                 </nav>
                             </section>
+                            <!--finish nav-->
+
+                            <!--section container-->
                             <section>
-                                <section class="p1rem"><!--recenti musiche-->
+
+                                <!--musiche recenti-->
+                                <section class="p1rem">
+
                                     <h2 class="fWhite font1-12rem">Recently Played</h2>
-                                    <section class="flex wrap"><!--card prima riga-->
+
+                                    <!--section card-->
+                                    <section class="flex wrap">
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <section class="ImgHover w100">
                                                 <img class="w100 imgBlock" src="img/metal_lifting.jpg" alt="">
@@ -116,6 +160,7 @@
                                             <p class="font0-62 fWhite textCenter">Heavy Metal</p>
                                             <p class="font0-62 fWhiteT textCenter">Subtitle</p>
                                         </div>
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <section class="ImgHover w100">
                                                 <img class="w100 imgBlock" src="img/stranger.jpeg" alt="">
@@ -128,6 +173,7 @@
                                             <p class="font0-62 fWhite textCenter">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</p>
                                             <p class="font0-62 fWhiteT textCenter">Kyle Dixon & Michael Stein</p>
                                         </div>
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <section class="ImgHover w100">
                                                 <img class="w100 imgBlock" src="img/aquietplace.jpeg" alt="">
@@ -140,6 +186,7 @@
                                             <p class="font0-62 fWhite textCenter">A quit place</p>
                                             <p class="font0-62 fWhiteT textCenter">Subtitle</p>
                                         </div>
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <section class="ImgHover w100">
                                                 <img class="w100 imgBlock" src="img/split.jpeg" alt="">
@@ -152,6 +199,7 @@
                                             <p class="font0-62 fWhite textCenter">Split</p>
                                             <p class="font0-62 fWhiteT textCenter">Subtitle</p>
                                         </div>
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <section class="ImgHover w100">
                                                 <img class="w100 imgBlock" src="img/cure.jpeg" alt="">
@@ -164,6 +212,7 @@
                                             <p class="font0-62 fWhite textCenter">A cure for wellness</p>
                                             <p class="font0-62 fWhiteT textCenter">Subtitle</p>
                                         </div>
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <section class="ImgHover w100">
                                                 <img class="w100 imgBlock" src="img/sinister.jpeg" alt="">
@@ -176,48 +225,80 @@
                                             <p class="font0-62 fWhite textCenter">Sinister </p>
                                             <p class="font0-62 fWhiteT textCenter">Subtitle</p>
                                         </div>
+
                                     </section>
+
                                 </section>
-                                <section class="p1rem"><!--creato per Jhon Doe-->
+                                <!--finish musiche recenti-->
+
+                                <!--section create for Jhon Doe-->
+                                <section class="p1rem">
+
                                     <h2 class="fWhite font1-12rem">Creato per John Doe</h2>
                                     <p class="fWhiteT font0-62">Più ascolti più accurati saranno i suggerimenti</p>
-                                    <section class="flex"><!--card-->
+
+                                    <!--section card for Jhon Doe-->
+                                    <section class="flex">
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <img class="w100" src="img/radar.jpeg" alt="">
                                             <p class="font0-62 fWhite textCenter">Release Radar</p>
                                         </div>
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <img class="w100" src="img/mixdaily.jpeg" alt="">
                                             <p class="font0-62 fWhite textCenter">Daily Mix 1</p>
                                         </div>
+
                                     </section>
+
                                 </section>
-                                <section class="p1rem"><!--artisti più popolari-->
+                                <!--finish section create for Jhon Doe-->
+
+                                <!--section artis popular-->
+                                <section class="p1rem">
+
                                     <h2 class="fWhite font1-12rem">Artisti più popolari</h2>
                                     <p class="fWhiteT font0-62">Più ascolti più accurati saranno i suggerimenti</p>
-                                    <section class="flex"><!--card-->
+
+                                    <!--section card popular-->
+                                    <section class="flex">
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <img class="w100 borderRadiusImg" src="img/youg.jpeg" alt="">
                                             <p class="font0-62 fWhite textCenter">Release Radar</p>
                                         </div>
+
                                         <div class="card col-1-2-1rem-s col-1-4-1rem-m col-1-6-1rem-l">
                                             <img class="w100 borderRadiusImg" src="img/einaudi.jpeg" alt="">
                                             <p class="font0-62 fWhite textCenter">Daily Mix 1 </p>
                                         </div>
+
                                     </section>
+
                                 </section>
+                                <!--finish section artis popular-->
                                 
                             </section>
+                            <!--finish section container-->
 
                         </section>
                        
                     </main>
+
                 </section>
-            </section>   
+
+            </section>  
+            <!--finish right side-->
+
         </div>
+
         <!--FOOTER-->
         <footer class="col-100-s height90">
+
             <div class="w100 height90 flex AlignItemsCenter">
+
+                <!--left side-->
                 <div class="w31-25 flex">
                     <div class="flex AlignItemsCenter">
                         <div class="pLeft">
@@ -233,6 +314,8 @@
                         <div><i class="fa-regular fa-folder pLeft"></i></div>
                     </div>
                 </div>
+
+                <!--central side-->
                 <div class="w37-5">
                     <div class="fWhite flex JustifyContentAround boxTopFooter">
                         <div><i class="fa-solid fa-shuffle"></i>
@@ -252,6 +335,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!--right side-->
                 <div class="w31-25 flex flex AlignItemsCenter height90 relative">
                     <div class="flex absolutFooter ">
                        <div class="flex font0-62 fWhite ">
@@ -277,6 +362,6 @@
 
         </footer>
     
-   
-</body>
+    </body>
+    
 </html>
